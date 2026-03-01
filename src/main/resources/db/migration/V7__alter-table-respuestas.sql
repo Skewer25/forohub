@@ -1,0 +1,2 @@
+alter table respuestas
+change column fechaCreacion fecha_creacion timestamp default current_timestamp;
